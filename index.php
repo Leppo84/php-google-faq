@@ -103,15 +103,25 @@ $faqs = [
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="https://thumbs.dreamstime.com/b/worktable-177563752.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <?php
-
+    <header>
+        <div>
+            <i class="fas fa-bars"></i>
+            <h1>Domande frequenti</h1>
+        </div>
+        <div>
+            <i class="fas fa-ellipsis-h"></i>
+            <img src="https://thumbs.dreamstime.com/b/worktable-177563752.jpg" alt="avatar">
+        </div>
+    </header>
+    <main><?php
         foreach ($faqs as $points) {
-            // var_dump($points);
             foreach ($points as $faq => $value) {
-                // var_dump($value);
                 if ($faq == 'quest') {
                     echo "<h2>$value</h2>";
                 }
@@ -119,8 +129,9 @@ $faqs = [
                     echo "$value";
                 }
             }   
-
         }
     ?>
+    </main>
+
 </body>
 </html>

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.8em;
+    letter-spacing: 0.025rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    /* color: rgb(50, 50, 50); */
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+header>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header>div>i {
+    margin-right: 25px;
+    font-size: 1.2rem;
+    color: rgb(120, 120, 120)
+}
+
+header>div>h1 {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+header>div>img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+main {
+    width: 80%;
+    margin: 10px auto;
+}
+
+h2 {
+    margin: 60px auto 10px;
+    font-size: 1.45rem;
+    line-height: 2rem;
+
+}
+
+h4 {
+    margin: 50px auto 10px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+}
+
+p {
+    margin: 20px auto;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(86, 86, 255);
+}
+
+ol {
+    padding-left: 15px;
+    margin: 15px 0;
+    /* list-style-position: inside; */
+}
+
+li {
+    padding-left: 20px;
+
+
+}
+
+span {
+    display: inline-block;
+    margin: 20px auto;
+}
+
+
+
+
